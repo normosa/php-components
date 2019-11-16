@@ -1,5 +1,10 @@
 {
     "name": "normosa/php-components",
     "require": {},
-    "require-dev":{}
+    "require-dev":{},
+    "autoload": {
+        "psr-4": {
+            "Devcomm\\": "public_html/"
+        }
+    }
 }
