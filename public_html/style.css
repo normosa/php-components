@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+form {
+    margin: 40px auto 0 auto;
+    width: 600px;
+}
+
+.row {
+    margin-bottom: 10px;
+}
+.row label {
+    width: 150px;
+    text-align: right;
+    display: block;
+    float: left;
+    padding-right: 10px;
+}
+.row .input-container {
+    float: left;
+}
+.row .input-container input {
+    display: block;
+    padding: 5px;
+    width: 250px;
+}
+.clearfix {
+    clear: both;
+}
+form button {
+    width: 120px;
+    background: #222;
+    color: #fff;
+    text-align: center;
+    border: 0;
+    line-height: 30px;
+    margin: 0 auto;
+    display: block;
+}
